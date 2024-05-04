@@ -58,8 +58,8 @@
 <body>
     <div class="container">
         <div class="header">
-            <h2>Kartu Pelanggan Air Pamsimas</h2>
-            <p>Desa Talok, Kecamatan Turen, Kabupaten Malang, Jawa Timur</p>
+            <h2>{{ settings()->get('business_name') }}</h2>
+            <p>{{ settings()->get('business_address') }}</p>
         </div>
 
         <hr>

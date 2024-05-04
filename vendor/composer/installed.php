@@ -3,7 +3,7 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'b5b736284c7d0891c6dc80bdb9bef672d043d015',
+        'reference' => '9bb17f9acc6470fe0e48014a665ff1b276a6bcd1',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -445,7 +445,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'b5b736284c7d0891c6dc80bdb9bef672d043d015',
+            'reference' => '9bb17f9acc6470fe0e48014a665ff1b276a6bcd1',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -1114,6 +1114,15 @@
             'install_path' => __DIR__ . '/../spatie/laravel-ignition',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'syamsoul/laravel-set-env' => array(
+            'pretty_version' => '1.0.7',
+            'version' => '1.0.7.0',
+            'reference' => '292edaee4e62cf1efdc19a22c135deffc9168c12',
+            'type' => 'laravel-package',
+            'install_path' => __DIR__ . '/../syamsoul/laravel-set-env',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'symfony/console' => array(
             'pretty_version' => 'v6.4.7',

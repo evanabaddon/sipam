@@ -6663,6 +6663,57 @@
             "install-path": "../spatie/laravel-ignition"
         },
         {
+            "name": "syamsoul/laravel-set-env",
+            "version": "1.0.7",
+            "version_normalized": "1.0.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/syamsoul/laravel-set-env.git",
+                "reference": "292edaee4e62cf1efdc19a22c135deffc9168c12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/syamsoul/laravel-set-env/zipball/292edaee4e62cf1efdc19a22c135deffc9168c12",
+                "reference": "292edaee4e62cf1efdc19a22c135deffc9168c12",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^10.4",
+                "illuminate/support": "^10.4"
+            },
+            "time": "2023-12-04T16:46:26+00:00",
+            "type": "laravel-package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "SoulDoit\\SetEnv\\Providers\\SetEnvServiceProvider"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SoulDoit\\SetEnv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Syamsoul Azrien",
+                    "email": "syamsoulazrien.miat@gmail.com"
+                }
+            ],
+            "description": "Easily update or insert Laravel environment variable with Artisan command",
+            "support": {
+                "issues": "https://github.com/syamsoul/laravel-set-env/issues",
+                "source": "https://github.com/syamsoul/laravel-set-env/tree/1.0.7"
+            },
+            "install-path": "../syamsoul/laravel-set-env"
+        },
+        {
             "name": "symfony/console",
             "version": "v6.4.7",
             "version_normalized": "6.4.7.0",

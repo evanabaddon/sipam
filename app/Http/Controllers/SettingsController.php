@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Settings;
+use SoulDoit\SetEnv\Env;
+
 
 class SettingsController extends Controller
 {
@@ -50,6 +52,11 @@ class SettingsController extends Controller
             
             $datasetting['app_stempel'] = $filename;
         }
+
+        $api = str_replace('"', '',$datasetting['wa_api']);
+
+        $envService = new Env(); 
+        $envService->set("WA_API", $api);
 
         Settings::set($datasetting);
         

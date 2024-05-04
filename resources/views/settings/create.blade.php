@@ -60,7 +60,6 @@
                                 <div class="text-danger">{{ $message }}</div>
                             @enderror
                         </div>
-
                         <div class="mb-3">
                             <label for="wa_api" class="form-label">Whatsapp Api <span style="color: red">*</span></label>
                             <input type="text" class="form-control" name="wa_api" value="{{ settings()->get('wa_api') }}">

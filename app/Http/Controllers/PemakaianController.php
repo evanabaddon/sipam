@@ -113,11 +113,11 @@ class PemakaianController extends Controller
 
         if (isset($response['status']) && $response['status'] === false) {
             // Jika terjadi kesalahan dalam pengiriman pesan WhatsApp
-            // Pemakaian::create($data);
+            Pemakaian::create($data);
             return redirect()->back()->with('error', 'Data pemakaian berhasil disimpan! Gagal mengirim pesan WhatsApp: ' . $response['message']);
         } else {
             // Jika pengiriman berhasil, lanjutkan dengan operasi lainnya
-            // Pemakaian::create($data);
+            Pemakaian::create($data);
             return redirect()->back()->with('success', 'Data pemakaian berhasil disimpan! Pesan WhatsApp berhasil dikirim!');
         }
         
